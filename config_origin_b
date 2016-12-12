@@ -1,0 +1,70 @@
+[global_config]
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+  [[basement2x2]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 0:27
+      size = 527, 608
+      title = m@b:~/.config
+      type = Window
+    [[[child1]]]
+      active_page = 0
+      labels = None, None
+      last_active_term = 28d27e09-9641-434a-8051-a77b534f8d56, 969dc17d-863d-47f7-b55f-afe804e5e349
+      order = 0
+      parent = child0
+      type = Notebook
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 536
+      ratio = 0.941637630662
+      type = VPaned
+    [[[child5]]]
+      order = 1
+      parent = child1
+      position = 282
+      ratio = 0.499128919861
+      type = VPaned
+    [[[terminal3]]]
+      group = basement[1]
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 28d27e09-9641-434a-8051-a77b534f8d56
+    [[[terminal4]]]
+      order = 1
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 9104162f-d211-41ea-aa6f-0dac280666d3
+    [[[terminal6]]]
+      group = basement[0]
+      order = 0
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = 969dc17d-863d-47f7-b55f-afe804e5e349
+    [[[terminal7]]]
+      order = 1
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = 41dfa450-510f-4381-af58-64a5508b5266
+[plugins]
+[profiles]
+  [[default]]
+    background_image = None
