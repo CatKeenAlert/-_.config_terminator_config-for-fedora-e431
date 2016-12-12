@@ -9,7 +9,7 @@
       order = 0
       parent = ""
       position = 0:27
-      size = 527, 608
+      size = 527, 633
       title = m@b:~/.config
       type = Window
     [[[child1]]]
@@ -22,14 +22,14 @@
     [[[child2]]]
       order = 0
       parent = child1
-      position = 267
-      ratio = 0.472996515679
+      position = 271
+      ratio = 0.459933222037
       type = VPaned
     [[[child5]]]
       order = 1
       parent = child1
-      position = 282
-      ratio = 0.499128919861
+      position = 287
+      ratio = 0.486644407346
       type = VPaned
     [[[terminal3]]]
       group = basement[1]
