@@ -8,31 +8,43 @@
       maximised = False
       order = 0
       parent = ""
-      position = 0:27
-      size = 527, 633
+      position = 0:28
+      size = 683, 668
       title = m@b:~/.config
       type = Window
     [[[child1]]]
-      active_page = 0
-      labels = None, None
-      last_active_term = 28d27e09-9641-434a-8051-a77b534f8d56, 41dfa450-510f-4381-af58-64a5508b5266
+      active_page = 2
+      labels = None, None, None
+      last_active_term = 28d27e09-9641-434a-8051-a77b534f8d56, 969dc17d-863d-47f7-b55f-afe804e5e349, 73615de9-e24c-43db-aca5-421dd412c6e4
       order = 0
       parent = child0
       type = Notebook
     [[[child2]]]
       order = 0
       parent = child1
-      position = 271
-      ratio = 0.459933222037
+      position = 291
+      ratio = 0.45859375
       type = VPaned
     [[[child5]]]
       order = 1
       parent = child1
-      position = 287
-      ratio = 0.486644407346
+      position = 308
+      ratio = 0.48515625
       type = VPaned
+    [[[child8]]]
+      order = 2
+      parent = child1
+      position = 317
+      ratio = 0.49921875
+      type = VPaned
+    [[[terminal10]]]
+      order = 1
+      parent = child8
+      profile = default
+      type = Terminal
+      uuid = 3fdb6a3d-c21d-4f2b-8ca5-e18d3e994e05
     [[[terminal3]]]
-      group = basement[1]
+      group = aliyun
       order = 0
       parent = child2
       profile = default
@@ -45,7 +57,7 @@
       type = Terminal
       uuid = 9104162f-d211-41ea-aa6f-0dac280666d3
     [[[terminal6]]]
-      group = basement[0]
+      group = neighbour
       order = 0
       parent = child5
       profile = default
@@ -57,6 +69,85 @@
       profile = default
       type = Terminal
       uuid = 41dfa450-510f-4381-af58-64a5508b5266
+    [[[terminal9]]]
+      group = local
+      order = 0
+      parent = child8
+      profile = default
+      type = Terminal
+      uuid = 73615de9-e24c-43db-aca5-421dd412c6e4
+  [[2x3]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 0:28
+      size = 683, 668
+      title = m@b:~
+      type = Window
+    [[[child1]]]
+      active_page = 2
+      labels = None, None, None
+      last_active_term = 0e28cfa4-288e-433a-843b-b7c51e3ccc70, 493c5b1c-093e-4587-b83d-fc483599c9c0, 189df15a-78eb-4fe5-9f98-7bec2731a514
+      order = 0
+      parent = child0
+      type = Notebook
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 317
+      ratio = 0.49921875
+      type = VPaned
+    [[[child5]]]
+      order = 1
+      parent = child1
+      position = 317
+      ratio = 0.49921875
+      type = VPaned
+    [[[child8]]]
+      order = 2
+      parent = child1
+      position = 317
+      ratio = 0.49921875
+      type = VPaned
+    [[[terminal10]]]
+      order = 1
+      parent = child8
+      profile = default
+      type = Terminal
+      uuid = 3404ce25-fc6c-4934-902d-5b51da6b0f33
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 1b9ea195-8c90-4a14-82d2-ae79a24556d8
+    [[[terminal4]]]
+      order = 1
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 0e28cfa4-288e-433a-843b-b7c51e3ccc70
+    [[[terminal6]]]
+      order = 0
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = aa086d8a-5adc-4bfa-b281-7a0b22ea4c9e
+    [[[terminal7]]]
+      order = 1
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = 493c5b1c-093e-4587-b83d-fc483599c9c0
+    [[[terminal9]]]
+      order = 0
+      parent = child8
+      profile = default
+      type = Terminal
+      uuid = 189df15a-78eb-4fe5-9f98-7bec2731a514
   [[basement2X2]]
     [[[child0]]]
       fullscreen = False
@@ -169,6 +260,81 @@
       profile = default
       type = Terminal
       uuid = 41dfa450-510f-4381-af58-64a5508b5266
+  [[local_neighbour_aliyun]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 0:28
+      size = 683, 668
+      title = m@b:~/.config
+      type = Window
+    [[[child1]]]
+      active_page = 2
+      labels = None, None, None
+      last_active_term = 28d27e09-9641-434a-8051-a77b534f8d56, 969dc17d-863d-47f7-b55f-afe804e5e349, 73615de9-e24c-43db-aca5-421dd412c6e4
+      order = 0
+      parent = child0
+      type = Notebook
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 291
+      ratio = 0.45859375
+      type = VPaned
+    [[[child5]]]
+      order = 1
+      parent = child1
+      position = 308
+      ratio = 0.48515625
+      type = VPaned
+    [[[child8]]]
+      order = 2
+      parent = child1
+      position = 317
+      ratio = 0.49921875
+      type = VPaned
+    [[[terminal10]]]
+      order = 1
+      parent = child8
+      profile = default
+      type = Terminal
+      uuid = 3fdb6a3d-c21d-4f2b-8ca5-e18d3e994e05
+    [[[terminal3]]]
+      group = aliyun
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 28d27e09-9641-434a-8051-a77b534f8d56
+    [[[terminal4]]]
+      order = 1
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 9104162f-d211-41ea-aa6f-0dac280666d3
+    [[[terminal6]]]
+      group = neighbour
+      order = 0
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = 969dc17d-863d-47f7-b55f-afe804e5e349
+    [[[terminal7]]]
+      order = 1
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = 41dfa450-510f-4381-af58-64a5508b5266
+    [[[terminal9]]]
+      group = local
+      order = 0
+      parent = child8
+      profile = default
+      type = Terminal
+      uuid = 73615de9-e24c-43db-aca5-421dd412c6e4
 [plugins]
 [profiles]
   [[default]]
