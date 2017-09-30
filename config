@@ -134,4 +134,4 @@
     background_image = None
     copy_on_selection = True
     foreground_color = "#657b83"
-    use_theme_colors = True
+    use_theme_colors = false
